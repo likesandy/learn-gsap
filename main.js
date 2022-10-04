@@ -3,9 +3,9 @@ import gsap from "gsap";
 window.addEventListener("load", () => {
   const time = gsap.timeline({
     // 重复无限次
-    repeat: -1,
-    // 反向执行动画
-    yoyo: true,
+    // repeat: 1,
+    // 执行完第一次动画后反向执行动画
+    // yoyo: true,
   });
 
   time
